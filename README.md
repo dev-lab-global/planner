@@ -60,13 +60,19 @@ OAuth login happens automatically on first connection.
 
 Point your client to `https://planner.monopoly-gold.com/_mcp` — the server supports MCP discovery and standard OAuth 2.1 flow.
 
+## Directory listings
+
+| Directory | Status | Link |
+|-----------|--------|------|
+| **Glama** | ✅ Live, Healthy | [glama.ai/mcp/connectors/…/planner-proof-of-done](https://glama.ai/mcp/connectors/com.monopoly-gold.planner/planner-proof-of-done) |
+| **mcp.so** | ✅ Published | [mcp.so/server/planner](https://mcp.so/server/planner/Denis%20Davidovich) |
+| **awesome-mcp-servers** | ⏳ PR under review | [PR #8708](https://github.com/punkpeye/awesome-mcp-servers/pull/8708) |
+
 ## Links
 
 - **Homepage:** https://planner.monopoly-gold.com
 - **Demo:** https://planner.monopoly-gold.com/demo
 - **MCP endpoint:** `https://planner.monopoly-gold.com/_mcp`
-- **Glama:** https://glama.ai/mcp/connectors/com.monopoly-gold.planner/planner-proof-of-done
-- **mcp.so:** https://mcp.so/server/planner/Denis%20Davidovich
 
 ## License
 
