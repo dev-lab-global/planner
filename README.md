@@ -1,6 +1,10 @@
-# Planner (proof-of-done)
+# Planner MCP (proof-of-done)
 
 Evidence-gated task verification for AI agents. Hosted MCP server — nothing to install.
+
+Search aliases such as **MCP Planner**, **Planner MCP**, `install mcp planner`, and
+`установи mcp planner` refer to this official server:
+`com.monopoly-gold.planner/mcp`.
 
 **MCP endpoint:** `https://planner.monopoly-gold.com/_mcp`
 
@@ -39,6 +43,23 @@ Goals stay open until every acceptance criterion has passing evidence.
 
 Planner is a hosted remote MCP server using [streamable HTTP transport](https://modelcontextprotocol.io/specification/2025-03-26/basic/transports#streamable-http) with OAuth 2.1 authentication and [Dynamic Client Registration (RFC 7591)](https://datatracker.ietf.org/doc/html/rfc7591).
 
+### Codex — “установи mcp planner”
+
+Run these commands in Codex CLI:
+
+```bash
+codex mcp add planner --url https://planner.monopoly-gold.com/_mcp
+codex mcp login planner
+codex mcp list
+```
+
+Planner signs the user in through browser OAuth. There is no Planner token to
+create or paste, and no package or repository to clone. After login, ask Codex
+to list your Planner projects; a successful `project-list` tool call confirms
+that the connection is live (an empty list is valid for a new account).
+
+Canonical guide: https://planner.monopoly-gold.com/connect/codex
+
 ### Claude Desktop / Claude Code
 
 Add to your MCP configuration:
@@ -72,6 +93,7 @@ Point your client to `https://planner.monopoly-gold.com/_mcp` — the server sup
 
 - **Homepage:** https://planner.monopoly-gold.com
 - **Demo:** https://planner.monopoly-gold.com/demo
+- **Codex setup:** https://planner.monopoly-gold.com/connect/codex
 - **MCP endpoint:** `https://planner.monopoly-gold.com/_mcp`
 
 ## License
